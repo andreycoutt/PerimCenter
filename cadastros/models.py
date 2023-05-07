@@ -17,8 +17,8 @@ class Entrega(models.Model):
     caixas = models.IntegerField()
     volumeextra = models.CharField(max_length=150, verbose_name='Volume Extra')
     nomeembalador = models.CharField(max_length=50, verbose_name='Nome do Embalador')
-    datacompra = models.DateField('data', null=True, blank=True)
-    datahoraentrega = models.DateTimeField('data', null=True, blank=True)
+    datacompra = models.DateField('Data da Compra', null=True, blank=True)
+    datahoraentrega = models.DateTimeField('Data e hora da Entrega', null=True, blank=True)
 
     
     
