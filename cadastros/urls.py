@@ -1,5 +1,6 @@
 from django.urls import path
+from .views import ClienteCreate
 
 urlpatterns = [
-   # path('endereço', MinhaView.as_view(), name="name-da-url"),
+    path('cadastrar/cliente/', ClienteCreate.as_view(), name='cadastrar-cliente'),
 ]
