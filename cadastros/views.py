@@ -15,7 +15,7 @@ class EntregaCreate(CreateView):
     model = Entrega
     fields = ['nome', 'endereco', 'caixas', 'volumeextra', 'nomeembalador', 'datacompra', 'datahoraentrega']
     template_name = 'cadastros/form.html'
-    success_url = reverse_lazy('cadastrar-entrega')
+    success_url = reverse_lazy('listar-entrega')
 
 # update #
 
