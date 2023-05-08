@@ -122,14 +122,6 @@ header{
 
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #2e2c2c;
-    height: 6vh;
-    
-}
 
 main {
     height: 529px;
