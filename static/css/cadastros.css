@@ -29,3 +29,15 @@ main {
     height: 93vh;
 }
 
+.container { 
+    width: 100px; 
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+header {
+
+    background: linear-gradient(rgb(26, 219, 36),rgb(255, 255, 255));
+    
+}
+
