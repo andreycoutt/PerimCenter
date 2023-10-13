@@ -1,4 +1,4 @@
-Pretendo fazer melhorias em todo o aplicativo.
+fazendo melhorias no visual.
 
 Video do aplicativo: https://www.youtube.com/watch?v=4k91OKVH244&t=30s&ab_channel=AndreyAlves
 
